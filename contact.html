@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            font-family: 'Arial', sans-serif;
+        }
+        h1 {
+            font-size: 3rem;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            margin: 0 0 1.5rem 0;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 2rem 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .card p {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin: 0.5rem 0;
+        }
+        .card span {
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            gap: 1rem;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            padding: 0.5rem 1.5rem;
+            border-radius: 8px;
+            transition: background 0.2s, border-color 0.2s;
+        }
+        a:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact</h1>
+    <div class="card">
+        <p><span>GitHub:</span> PizzzaDog</p>
+        <p><span>Email:</span> hello@example.com</p>
+        <p><span>Location:</span> The Internet</p>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+</body>
+</html>

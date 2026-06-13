@@ -7,6 +7,7 @@
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -18,11 +19,25 @@
             font-size: 4rem;
             color: white;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-            margin: 0;
+            margin: 0 0 1.5rem 0;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            padding: 0.5rem 1.5rem;
+            border-radius: 8px;
+            transition: background 0.2s, border-color 0.2s;
+        }
+        a:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: white;
         }
     </style>
 </head>
 <body>
     <h1>Hello World!</h1>
+    <a href="about.html">About &rarr;</a>
 </body>
 </html>

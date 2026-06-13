@@ -28,8 +28,12 @@
             text-align: center;
             line-height: 1.6;
         }
-        a {
+        nav {
+            display: flex;
+            gap: 1rem;
             margin-top: 2rem;
+        }
+        a {
             color: white;
             text-decoration: none;
             font-size: 1.1rem;
@@ -47,6 +51,9 @@
 <body>
     <h1>About Page</h1>
     <p>This is the second page of the Hello World project. Built with a matching gradient style and a link back home.</p>
-    <a href="index.html">&larr; Back to Hello World</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 </body>
 </html>
